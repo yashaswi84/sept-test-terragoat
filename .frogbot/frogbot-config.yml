@@ -1,0 +1,13 @@
+- params:
+    git:
+      repoName: sept-test-terragoat
+      branches:
+        - master
+      aggregateFixes: false
+    scan:
+      minSeverity: "Low"
+      failOnSecurityIssues: false
+      disableJas: false
+      projects:
+        - workingDirs:
+            - "."
